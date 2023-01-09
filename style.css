@@ -1,0 +1,32 @@
+main{
+    display: grid;
+    justify-content: center;
+}
+
+#imgContainer{
+    position: relative;
+}
+
+img {
+    /* max-width: 100%;
+    height: auto;
+    margin: 10px; */
+    max-width: 100%;
+}
+
+ul{
+    position: absolute;
+    top: 30px;
+    left: 5%;
+    list-style-type: none;
+    list-style-position: inside;
+    margin:0;
+    padding:0;
+    background-color: rgb(210, 217, 224);
+    border: 1px solid black;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;    
+}
